@@ -387,8 +387,8 @@ a:hover {
   }
 
   #caro{
-    width: 60%;
-    margin-top: 80vw;
+    width: 90%;
+    margin-top: -150vw;
   }
 /*
   #hero h1 {
@@ -397,9 +397,20 @@ a:hover {
   }
 */
   #hero p {
+    text-align: center;
+    margin-top: -65vw;
+    font-size: 20px;
+    letter-spacing: 0;
+
+  }
+
+  #hero p span {
+    text-shadow: 2px 2px rgb(240, 246, 150);
+    text-align: center;
     margin-top: 0px;
     font-size: 20px;
-    line-height: 24px;
+    letter-spacing:0px;
+
   }
 }
 
@@ -801,6 +812,8 @@ margin-bottom: 0px;}
   margin-right: 0px}
 
 /*TIENES UN PROYECTO?*/
+
+.section-title h2{display: none;}
 #tienes{ width: 110%;}
 
 
@@ -854,49 +867,65 @@ color: rgb(172, 137, 255);
 @media (max-width: 992px) {
 
   #contact{
+    background:rgb(236, 232, 249);
+    padding-top: 30vw;
     margin-top: -40px;
     margin-bottom: -30vw;
     height: 140vw;
+    padding-bottom:150vw;
+
   }
 
   #items{ 
-    height: 100vw; /*100% DEL ALTO DEL ESPACIO VISUAL*/
-    background: url("../img/renderPantalla.png") top right no-repeat;
+  background: url("../img/renderPantalla.png") top right no-repeat;
     background-position: right 100px;
     background-size:contain;
     position: relative;}
 
-    /*TIENES UN PROYECTO?*/
+  #tienes{display: none;}
+
+  .section-title h2{display: block;
+    font-size: 40px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    text-shadow: 2px 2px  rgb(152, 105, 243);
+  color:rgb(240, 246, 150);
+  font-family: 'GalanoGrotesqueBlack';
+text-transform: none;}
+
+
+    /*TIENES UN PROYECTO?*//*
 #tienes{ 
   padding-right: 10px;
   margin-top: -40px;
   margin-bottom: -20px;
-  width: 110%;}
+  width: 110%;}*/
 
-  #lets{text-align: center; 
-    margin-top:10px;
-    font-size: 40px;  }
+  #lets{
+    color: rgb(152, 105, 243);
+    text-align: center; 
+    margin-top:30px;
+    font-size: 40px;
+    }
 
   /*RENDER LA IMG, NO EL FONDO*/
 #contactBack{display: none;}
 
-
-
   .btnContact{
-    height:10vw;
-    margin-right: 0;
-    margin-top: 80VW;}
+    height:11vw;
+    margin-right: 10px;
+    margin-top: 82vw;}
 
   #items .social-links {
-
     float: left;
-    margin-top: -10vw;
+   /* margin-top: -10vw;*/
     padding-right: 10px;
+   /* margin-bottom: 70vw;*/
   }
   
   #items .social-links a {
     padding-left: 10px;
-    font-size: 9vw;
+    font-size: 9vw;  
   }
   
   }
@@ -904,14 +933,13 @@ color: rgb(172, 137, 255);
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  
-  margin-top: -120px;
   background:rgb(152, 105, 243);
   color: white;
   font-size: 14px;
   text-align: right;
   margin-bottom: 0px;
 height:12vw;
+margin-top: 0px;
 }
 
 #footer h4 {
@@ -936,7 +964,7 @@ height:12vw;
 @media (max-width: 992px) {
   #footer {
     background-color:rgb(152, 105, 243);
-    margin-top: 80px;
+    margin-top: 30vw;
     text-align: left;
     margin-bottom: 0px;
     height: 23vw;;
