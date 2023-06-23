@@ -48,7 +48,7 @@
 --------------------------------------------------------------*/
 body {
  background-color:rgb(236, 232, 249);
-  color:rgb(96,56,19);
+  color:rgb(43, 43, 43);
 
 }
   
@@ -62,7 +62,6 @@ a:hover {
   color: rgb(152,105,243);
   text-decoration: none;
 }
-
 
 
 
@@ -351,16 +350,6 @@ a:hover {
   margin-bottom: 0;
   margin-left: 0;
 }
-/* EDICION ELIMINADA
-#hero h1 {
-  font-family: 'GalanoGrotesqueLight';
-  text-transform: uppercase;
-  margin-top: 0vw; /*MARGEN SUPERIOR*/
- /* font-size: 64px;/*
-  font-weight: 700;
-  line-height: 56px;
-  color:black;
-}*/
 
 
 #hero p {
@@ -373,8 +362,9 @@ a:hover {
 }
 
 #hero p span {
-  color: rgb(152,105,243);
+  color:rgb(152,105,243);
   letter-spacing: 5px;
+  text-shadow: 2px 2px rgb(240, 246, 150);
 }
 
 
@@ -405,7 +395,7 @@ a:hover {
   }
 
   #hero p span {
-    text-shadow: 2px 2px rgb(240, 246, 150);
+    text-shadow: 3px 4px rgb(240, 246, 150);
     text-align: center;
     margin-top: 0px;
     font-size: 20px;
@@ -435,10 +425,6 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #45505b;
-}
-
-.titles{
-  height: 60px;
 }
 
 /**linea bajo titulo*/
@@ -473,12 +459,17 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+/*HI H2*/
+#Hi{
+  margin-left: 10px;
+  font-size: 80px;
+  margin-top: 4vw;
+  text-shadow: 3px 4px  rgb(152, 105, 243);
+color:rgb(240, 246, 150);
+font-family: 'GalanoGrotesqueBlack';
+text-transform: none;}
 
-/*HI*/
-#hi{
-  padding-left: 10px;
-  margin-top: 5vw;
-}
+
 
 #about{background-color:rgb(220, 218, 249)}
 
@@ -516,12 +507,13 @@ section {
     width: 100%;
   }
 
-
-  #hi{
-    height: 10%;
-    padding-left: 10px;
-    margin-top: -10vw;
+/*HI H2*/
+#Hi{
+  margin-left: 10px;
+  margin-top: -20vw;
   }
+
+
 
 .about .content h3 {
   margin-top: 4vw;
@@ -546,6 +538,15 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 #portfolio{background-color:rgb(247, 247, 255)}
+
+#projects{
+  font-size: 100px;
+  margin-top: 1vw;
+  text-shadow: 3px 4px  rgb(152, 105, 243);
+color:rgb(240, 246, 150);
+font-family: 'GalanoGrotesqueBlack';
+text-transform: none;}
+
 #slogan{
 margin-top: 10px;
 letter-spacing: 4px;
@@ -722,6 +723,14 @@ color:rgb(152, 105, 243);
 
 @media (max-width: 992px) {
 
+  #projects{
+    margin-bottom: -20px;
+    font-size: 55px;
+    margin-top: 1vw;
+    text-shadow: 3px 4px  rgb(152, 105, 243);
+  }
+  
+
   #slogan{
     display: none;
     }
@@ -831,16 +840,21 @@ margin-bottom: 0px;}
   margin-right: 0px}
 
 /*TIENES UN PROYECTO?*/
-
-.section-title h2{display: none;}
-#tienes{ width: 110%;}
-
-
+#tienes{
+  font-size: 70px;
+  margin-top: 0px;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: -20vw;
+  text-shadow: 3px 4px  rgb(152, 105, 243);
+color:rgb(240, 246, 150);
+font-family: 'GalanoGrotesqueBlack';
+text-transform: none;}
 
 #items{padding-bottom: 0px;margin-bottom: 0px;}
 
 #lets{text-align: right;
-  margin-right: 0; 
+  margin-right: 10px; 
   margin-top: 70px;
   font-family: 'GalanoGrotesqueBlack';
 font-size: 55px;
@@ -849,11 +863,13 @@ color: rgb(172, 137, 255);
 
 .btnContact{height:12%;
   padding-left: 400px ;
+  margin-right: 10px;
   margin-top: 30px;
   float: right;}
 
 
 #items .social-links {
+  margin-right: 10px;
   float: right;
   margin-top: 3vw;
 }
@@ -901,24 +917,13 @@ color: rgb(172, 137, 255);
     background-size:contain;
     position: relative;}
 
-  #tienes{display: none;}
+  #tienes{
+    text-align: center;
 
-  .section-title h2{display: block;
     font-size: 40px;
     margin-top: -50px;
     margin-bottom: -50px;
-    text-shadow: 2px 2px  rgb(152, 105, 243);
-  color:rgb(240, 246, 150);
-  font-family: 'GalanoGrotesqueBlack';
-text-transform: none;}
-
-
-    /*TIENES UN PROYECTO?*//*
-#tienes{ 
-  padding-right: 10px;
-  margin-top: -40px;
-  margin-bottom: -20px;
-  width: 110%;}*/
+}
 
   #lets{
     color: rgb(152, 105, 243);
