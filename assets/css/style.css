@@ -47,19 +47,19 @@
 # General
 --------------------------------------------------------------*/
 body {
- background-color:rgb(236, 232, 249);
+ background-color:white;
   color:rgb(43, 43, 43);
 
 }
   
 
 a {
-  color: rgb(152,105,243);
+  color: rgb(134, 80, 254);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(152,105,243);
+  color:rgb(134, 80, 254);
   text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background:  rgb(152,105,243);
+  background: rgb(7, 64, 255);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -89,7 +89,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background:rgb(255, 250, 77);
+  background:rgb(255, 223, 63);
   color: #fff;
 }
 
@@ -117,7 +117,7 @@ a:hover {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid rgb(152,105,243);
+  border: 6px solid rgb(7, 64, 255);
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -181,13 +181,14 @@ a:hover {
 * Desktop Navigation 
 */
 
-#navegar{color: rgb(152,105,243);}
+#navegar{color:rgb(7, 64, 255)}
 
 
 /*FONDO DE LATERAL DE NAV*/
 #header{background-color: transparent; border: none;}
 
-#logo {height: 40px;}
+#logo {height: 55px;
+margin-bottom: 10px;}
 
 .nav-menu {
   padding: 0;
@@ -219,7 +220,7 @@ a:hover {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: rgb(152,105,243);
+  background:rgb(13, 208, 254);
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -257,8 +258,8 @@ a:hover {
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
-  color:  rgb(152,105,243);
-  background:rgb(236, 232, 249);
+  color: rgb(7, 64, 255);
+  background:rgb(243, 250, 254);
 }
 
 /*EL TEXTO NAV CLICKEADO*/
@@ -267,7 +268,7 @@ a:hover {
 .nav-menu .active:focus span,
 .nav-menu li:hover>a span {
   
-  color:  rgb(152,105,243);
+  color:rgb(7, 64, 255);
 }
 
 /*APAREZCA EL CONTENIDO TOTAL DE LA BARRA*/
@@ -302,7 +303,7 @@ a:hover {
 
 /*BARRAS DE NAVEGACION SUPERIOR*/
 .mobile-nav-toggle i {
-  color:  rgb(152,105,243);
+  color: rgb(134, 80, 254);
 }
 
 .mobile-nav-active {
@@ -324,7 +325,7 @@ a:hover {
 #hero {
   width: 100%; /*100% DEL ANCHO DE PANTALLA*/
   height: 100vh; /*100% DEL ALTO DEL ESPACIO VISUAL*/
-  background: url("../img/iso.png") top right no-repeat;
+  background: url("../img/iso2.png") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -345,8 +346,8 @@ a:hover {
 }
 
 #caro{
-  margin-top: 10vw;
-  width: 50%;
+  margin-top: 20vw;
+  width: 45%;
   margin-bottom: 0;
   margin-left: 0;
 }
@@ -354,17 +355,17 @@ a:hover {
 
 #hero p {
   color: black;
-  margin-top: 0;
-  margin-left: 50px;
+  margin-top: -60px;
+  margin-left:150px;
   font-size: 30px;
-  font-family: 'GalanoGrotesqueMedium';
-  letter-spacing: 5px;
+  font-family: 'GalanoGrotesqueAltBold';
+  letter-spacing: 0;
 }
 
 #hero p span {
-  color:rgb(152,105,243);
-  letter-spacing: 5px;
-  text-shadow: 2px 2px white;
+  color:rgb(134, 80, 254);
+  letter-spacing: 0;
+ /* text-shadow: 1px 1px rgb(107, 63, 203);*/
 }
 
 
@@ -377,8 +378,9 @@ a:hover {
   }
 
   #caro{
-    width: 90%;
-    margin-top: -200px;
+    display: none;
+    width: 70%;
+    margin-top: 100px;
   }
 /*
   #hero h1 {
@@ -387,6 +389,7 @@ a:hover {
   }
 */
   #hero p {
+    display: none;
     text-align: center;
     margin-top: -50px;
     font-size: 20px;
@@ -464,14 +467,15 @@ section {
   margin-left: 10px;
   font-size: 80px;
   margin-top: 4vw;
-  text-shadow: 3px 4px  rgb(152, 105, 243);
-color:rgb(255, 250, 77);
+  text-shadow: 3px 4px rgb(7, 64, 255);
+color:rgb(13, 208, 254);
 font-family: 'GalanoGrotesqueBlack';
 text-transform: none;}
 
 
 
-#about{background-color:rgb(220, 218, 249)}
+#about{background-color:rgb(243, 250, 254);
+margin-left: -100px}
 
 /*TITULO IM MACARENA CAR0*/
 .about .content h3 {
@@ -480,7 +484,7 @@ text-transform: none;}
   font-family:'GalanoGrotesqueAltBold';
   font-weight: 700;
   font-size: 26px;
-  color: rgb(152, 105, 243);
+  color:rgb(7, 64, 255);
 }
 
 #pAbout{
@@ -537,13 +541,13 @@ text-transform: none;}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-#portfolio{background-color:rgb(247, 247, 255)}
+#portfolio{background-color:white}
 
 #projects{
   font-size: 100px;
   margin-top: 1vw;
-  text-shadow: 3px 4px  rgb(152, 105, 243);
-color:rgb(255, 250, 77);
+  text-shadow: 3px 4px rgb(7, 64, 255);
+color:rgb(13, 208, 254);
 font-family: 'GalanoGrotesqueBlack';
 text-transform: none;}
 
@@ -552,7 +556,7 @@ margin-top: 10px;
 letter-spacing: 4px;
 font-family: 'GalanoGrotesqueLight';
 text-transform: uppercase;
-color:rgb(152, 105, 243);
+color:rgb(7, 64, 255);
 }
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -575,7 +579,7 @@ color:rgb(152, 105, 243);
     font-size: 18px;
     font-weight: 600;
     line-height: 1;
-    color: rgb(152, 105, 243);
+    color: rgb(7, 64, 255);
     margin-bottom: 5px;
     
     transition: all 0.3s ease-in-out;
@@ -585,7 +589,7 @@ color:rgb(152, 105, 243);
 
   .portfolio #portfolio-flters li:hover,
   .portfolio #portfolio-flters li.filter-active {
-    color:rgb(243, 85, 142)
+    color:rgb(13, 208, 254)
   }
 
 .portfolio #portfolio-flters li:last-child {
@@ -604,7 +608,7 @@ color:rgb(152, 105, 243);
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: white;
   position: absolute;
   left: 30px;
   right: 30px;
@@ -756,10 +760,10 @@ color:rgb(152, 105, 243);
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-#contact{background-color:rgb(236, 232, 249) ;
-}
-
+#back {background: url("../img/iso2.png") top right no-repeat; ;}
+.contact{background-color:rgb(243, 250, 254)}
 #items #tienes{
+
 float: right;
  width: 140%;
  margin-right: 0%;
@@ -769,6 +773,7 @@ padding-left:45%;
 
 /*RENDER*/
 #contactBack{width: 120%;
+  
 margin-left: -30px;
 margin-bottom: 0px;}
 
@@ -777,13 +782,14 @@ margin-bottom: 0px;}
 
 /*TIENES UN PROYECTO?*/
 #tienes{
+  
   font-size: 70px;
   margin-top: 0px;
   text-align: right;
   margin-right: 10px;
   margin-bottom: -20vw;
-  text-shadow: 3px 4px  rgb(152, 105, 243);
-color:rgb(255, 250, 77);
+  text-shadow: 3px 4px  rgb(7, 64, 255);
+color:rgb(13, 208, 254);
 font-family: 'GalanoGrotesqueBlack';
 text-transform: none;}
 
@@ -794,7 +800,7 @@ text-transform: none;}
   margin-top: 70px;
   font-family: 'GalanoGrotesqueBlack';
 font-size: 55px;
-color: rgb(172, 137, 255);
+color: rgb(7, 64, 255);
 }
 
 .btnContact{height:12%;
@@ -813,14 +819,14 @@ color: rgb(172, 137, 255);
 #items .social-links a {
   font-size: 300%;
   display: inline-block;
-  color:  rgb(172, 137, 255);
+  color: rgb(255, 223, 63);
   line-height: 1;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 #items .social-links a:hover {
-  color:rgb(243, 85, 142);
+  color:rgb(255, 223, 63);
 }
 
 
@@ -862,7 +868,7 @@ color: rgb(172, 137, 255);
 }
 
   #lets{
-    color: rgb(152, 105, 243);
+  
     text-align: center; 
     margin-top:30px;
     font-size: 40px;
@@ -893,7 +899,7 @@ color: rgb(172, 137, 255);
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background:rgb(152, 105, 243);
+  background:rgb(7, 64, 255);
   color: white;
   font-size: 14px;
   text-align: right;
@@ -923,7 +929,6 @@ margin-top: 0px;
 
 @media (max-width: 992px) {
   #footer {
-    background-color:rgb(152, 105, 243);
     margin-top: 30vw;
     text-align: left;
     margin-bottom: 0px;
