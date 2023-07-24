@@ -316,7 +316,7 @@ margin-bottom: 10px;}
 
 /*LA 'X' AL HACER CLICK*/
 .mobile-nav-active .mobile-nav-toggle {
-  background-color:  rgb(255, 250, 77);
+  background-color: white;
 }
 
 /*--------------------------------------------------------------
@@ -352,7 +352,9 @@ margin-bottom: 10px;}
   margin-left: 0;
 }
 
-
+#caro2{
+  display: none;
+}
 #hero p {
   color: black;
   margin-top: -60px;
@@ -379,8 +381,17 @@ margin-bottom: 10px;}
 
   #caro{
     display: none;
-    width: 70%;
-    margin-top: 100px;
+  }
+
+  #caro2{
+    border:2px solid #fff;
+    -webkit-box-shadow: 5px 6px 5px rgb(174, 186, 197);
+    border-radius:190px;
+    display:block;
+    margin-top: -10vw;
+    width: 40%;
+    margin-bottom: 0;
+    margin-left: 10vw;
   }
 /*
   #hero h1 {
@@ -507,22 +518,27 @@ margin-left: -100px}
 @media (max-width: 992px) {
 
   #selfie{
-    margin-top: -10px;
-    width: 100%;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 70px;
   }
 
 /*HI H2*/
 #Hi{
-  margin-left: 10px;
+  margin-left: 110px;
   margin-top: -20vw;
   }
 
 
 
 .about .content h3 {
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 4vw;
 }
   #pAbout{
+    padding-right: 110px;
+    margin-left: 100px;
     line-height: 1.5;
     font-size: 17px;
     margin-top: 4vw;
@@ -532,6 +548,7 @@ margin-left: -100px}
   }
 
   #icons{
+    margin-left: 100px;
     margin-top: 4vw;
 
   }
@@ -731,7 +748,6 @@ color:rgb(7, 64, 255);
     margin-bottom: -20px;
     font-size: 55px;
     margin-top: 1vw;
-    text-shadow: 3px 4px  rgb(152, 105, 243);
   }
   
 
@@ -746,7 +762,6 @@ color:rgb(7, 64, 255);
       font-size: 17px;
       font-weight: 600;
       line-height: 1;
-      color: rgb(152, 105, 243);
       margin-bottom: 5px;
       
       transition: all 0.3s ease-in-out;
@@ -844,13 +859,9 @@ color: rgb(7, 64, 255);
 @media (max-width: 992px) {
 
   #contact{
-    background:rgb(236, 232, 249);
     padding-top: 30vw;
     margin-top: -40px;
-    margin-bottom: -30vw;
     height: 140vw;
-    padding-bottom:150vw;
-
   }
 
   #items{ 
@@ -862,15 +873,15 @@ color: rgb(7, 64, 255);
   #tienes{
     text-align: center;
 
-    font-size: 40px;
-    margin-top: -50px;
+    font-size: 50px;
+    margin-top: 0px;
     margin-bottom: -50px;
 }
 
   #lets{
   
     text-align: center; 
-    margin-top:30px;
+    margin-top:10px;
     font-size: 40px;
     }
 
@@ -878,12 +889,12 @@ color: rgb(7, 64, 255);
 #contactBack{display: none;}
 
   .btnContact{
-    height:11vw;
+    height:40px;
     margin-right: 10px;
     margin-top: 82vw;}
 
   #items .social-links {
-    float: left;
+    float: right;
    /* margin-top: -10vw;*/
     padding-right: 10px;
    /* margin-bottom: 70vw;*/
@@ -891,7 +902,7 @@ color: rgb(7, 64, 255);
   
   #items .social-links a {
     padding-left: 10px;
-    font-size: 9vw;  
+    font-size: 40px;  
   }
   
   }
@@ -929,7 +940,7 @@ margin-top: 0px;
 
 @media (max-width: 992px) {
   #footer {
-    margin-top: 30vw;
+    margin-top: 0vw;
     text-align: left;
     margin-bottom: 0px;
     height: 23vw;;
