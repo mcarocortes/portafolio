@@ -42,13 +42,23 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Patinio';
+  src: url('../../fonts/PatinioBasica.woff2') format('woff2'),
+      url('../../fonts/PatinioBasica.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
  background-color:white;
-  color:rgb(43, 43, 43);
+  color:rgb(7, 64, 156);
 
 }
   
@@ -385,7 +395,7 @@ margin-bottom: 10px;}
 
   #caro2{
     border:2px solid #fff;
-    -webkit-box-shadow: 5px 6px 5px rgb(174, 186, 197);
+  /*  -webkit-box-shadow: 5px 6px 5px rgb(174, 186, 197);*/
     border-radius:190px;
     display:block;
     margin-top: 10vw;
@@ -474,13 +484,14 @@ section {
 # About
 --------------------------------------------------------------*/
 /*HI H2*/
+/*BIENVENIDOS*/
 #Hi{
   margin-left: 10px;
-  font-size: 80px;
+  font-size: 6VW;
   margin-top: 4vw;
   text-shadow: 3px 4px rgb(7, 64, 255);
 color:rgb(13, 208, 254);
-font-family: 'GalanoGrotesqueBlack';
+font-family: 'GalanoGrotesqueAltBold';
 text-transform: none;}
 
 
@@ -488,14 +499,14 @@ text-transform: none;}
 #about{background-color:rgb(243, 250, 254);
 margin-left: -100px}
 
-/*TITULO IM MACARENA CAR0*/
+/*TITULO YO SOY MACARENA CAR0*/
 .about .content h3 {
   padding-left: 10px;
   margin-top: 2VW;
   font-family:'GalanoGrotesqueAltBold';
   font-weight: 700;
   font-size: 26px;
-  color:rgb(7, 64, 255);
+  color:rgb(7, 64, 156);
 }
 
 #pAbout{
@@ -511,30 +522,31 @@ margin-left: -100px}
 #icons{
   padding-left: 10px;
   margin-top: 2vw;
-  height: 60px;
+  height: 15%;
 }
 
 /****************  EDICION EN MEDIA ************/
 @media (max-width: 992px) {
 
   #selfie{
-    margin-top: 20vw;
-    width: 80%;
+    margin-top: 4vw;
+    width:  80%;
     margin-left: 95px;
   }
 
 /*HI H2*/
 #Hi{
-  font-size: 13vw;
+  font-size: 11vw;
   margin-right: 10px;
   margin-left: 110px;
-  margin-top: -20vw;
+  margin-top: -15vw;
+  text-shadow: 2px 2px rgb(7, 64, 255);
+
   }
 
 
 
 .about .content h3 {
-  
   margin-left: 100px;
   margin-top: 4vw;
 }
@@ -575,7 +587,7 @@ margin-top: 10px;
 letter-spacing: 4px;
 font-family: 'GalanoGrotesqueLight';
 text-transform: uppercase;
-color:rgb(7, 64, 255);
+color:rgb(7, 64, 156);
 }
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -598,7 +610,7 @@ color:rgb(7, 64, 255);
     font-size: 18px;
     font-weight: 600;
     line-height: 1;
-    color: rgb(7, 64, 255);
+    color: rgb(7, 64, 156);
     margin-bottom: 5px;
     
     transition: all 0.3s ease-in-out;
@@ -747,6 +759,8 @@ color:rgb(7, 64, 255);
 @media (max-width: 992px) {
 
   #projects{
+    text-shadow: 2px 2px rgb(7, 64, 255);
+
     margin-bottom: -20px;
     font-size: 55px;
     margin-top: 1vw;
@@ -777,21 +791,23 @@ color:rgb(7, 64, 255);
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-#back {background: url("../img/iso2.png") top right no-repeat; ;}
-.contact{background-color:rgb(243, 250, 254)}
-#items #tienes{
 
+
+#items #tienes{
 float: right;
  width: 140%;
  margin-right: 0%;
 padding-left:45%;
 }
 
+#contactos{
+  margin-left: -100px;
+  background-color:rgb(223, 241, 251) }
 
-/*RENDER*/
-#contactBack{width: 120%;
-  
-margin-left: -30px;
+
+/*GIF*/
+#contactBack{width: 120%;  
+margin-left:10px;
 margin-bottom: 0px;}
 
 #items{float: right;
@@ -812,10 +828,11 @@ text-transform: none;}
 
 #items{padding-bottom: 0px;margin-bottom: 0px;}
 
+/*HABLEMOS!*/
 #lets{text-align: right;
   margin-right: 10px; 
   margin-top: 70px;
-  font-family: 'GalanoGrotesqueBlack';
+  font-family: 'GalanoGrotesqueAltBold';
 font-size: 55px;
 color: rgb(7, 64, 255);
 }
@@ -836,14 +853,14 @@ color: rgb(7, 64, 255);
 #items .social-links a {
   font-size: 300%;
   display: inline-block;
-  color: rgb(255, 223, 63);
+  color: rgb(255, 190, 78);
   line-height: 1;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 #items .social-links a:hover {
-  color:rgb(255, 223, 63);
+  color:rgb(7, 64, 255);
 }
 
 
@@ -860,6 +877,11 @@ color: rgb(7, 64, 255);
 
 @media (max-width: 992px) {
 
+
+  #contactos{
+    margin-left:0px;
+    background-color:rgb(223, 241, 251) }
+  
   #contact{
     padding-top: 30vw;
     margin-top: -40px;
@@ -867,13 +889,13 @@ color: rgb(7, 64, 255);
   }
 
   #items{ 
-  background: url("../img/macarena_Contacto.png") top right no-repeat;
     background-position: right 100px;
     background-size:contain;
     position: relative;}
 
   #tienes{
     text-align: center;
+    text-shadow: 2px 2px  rgb(7, 64, 255);
 
     font-size: 50px;
     margin-top: 0px;
@@ -881,30 +903,33 @@ color: rgb(7, 64, 255);
 }
 
   #lets{
-  
-    text-align: center; 
+    display: none;
+  /*  text-align: center; 
     margin-top:10px;
-    font-size: 40px;
+    font-size: 40px;*/
     }
 
-  /*RENDER LA IMG, NO EL FONDO*/
-#contactBack{display: none;}
+  /*LA IMG, NO EL FONDO*/
+#contactBack{
+  width: 140%;
+  margin-left: -50px;
+}
 
   .btnContact{
-    height:40px;
+    height:50px;
     margin-right: 10px;
-    margin-top: 55vw;}
+    margin-top: 1vw;}
 
   #items .social-links {
     float: right;
-   /* margin-top: -10vw;*/
+ margin-top: 10px;
     padding-right: 10px;
    /* margin-bottom: 70vw;*/
   }
   
   #items .social-links a {
     padding-left: 10px;
-    font-size: 40px;  
+    font-size: 35px;  
   }
   
   }
@@ -912,13 +937,20 @@ color: rgb(7, 64, 255);
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background:rgb(7, 64, 255);
+  background:rgb(35, 46, 90);
   color: white;
   font-size: 14px;
   text-align: right;
   margin-bottom: 0px;
-height:12vw;
-margin-top: 0px;
+height:10vw;
+margin-top: -50px;
+}
+
+#logotr{
+  float: right;
+  padding-top: 30px;
+  padding-left: 20px ;
+  width: 100px;
 }
 
 #footer h4 {
@@ -928,24 +960,21 @@ margin-top: 0px;
   position: relative;
   font-family: 'GalanoGrotesqueLight';
   text-transform: uppercase;
-  padding-top: 50px;
-  padding-left: 10px;
+  padding-top: 40px;
  
 }
-
 
 #footer .credits {
   font-family: 'GalanoGrotesqueLight';
   font-size:13px;
-  padding-left: 10px;
 }
 
 @media (max-width: 992px) {
   #footer {
+    height:100px;
     margin-top: 0vw;
     text-align: left;
     margin-bottom: 0px;
-    height: 23vw;;
  
   }
 
@@ -956,5 +985,7 @@ margin-top: 0px;
 
   }
 
-  
+  #logotr{
+    width: 80px;
+  }
 }
