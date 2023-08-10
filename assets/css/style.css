@@ -42,6 +42,27 @@
   font-display: swap;
 }
 
+/*TITULOS*/
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('../../fonts/NexaSlabDemo-Regular.woff2') format('woff2'),
+      url('../../fonts/NexaSlabDemo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nexa Bold';
+  src: url('../../fonts/NexaSlabDemo-Bold.woff2') format('woff2'),
+      url('../../fonts/NexaSlabDemo-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 @font-face {
   font-family: 'Patinio';
   src: url('../../fonts/PatinioBasica.woff2') format('woff2'),
@@ -50,6 +71,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 
 
 
@@ -489,9 +511,9 @@ section {
   margin-left: 10px;
   font-size: 6VW;
   margin-top: 4vw;
-  text-shadow: 3px 4px rgb(7, 64, 255);
+  text-shadow: 2px 2px rgb(7, 64, 255);
 color:rgb(13, 208, 254);
-font-family: 'GalanoGrotesqueAltBold';
+font-family: 'Nexa';
 text-transform: none;}
 
 
@@ -575,11 +597,11 @@ margin-left: -100px}
 #portfolio{background-color:white}
 
 #projects{
-  font-size: 100px;
+  font-size: 6vw;
   margin-top: 1vw;
-  text-shadow: 3px 4px rgb(7, 64, 255);
+  text-shadow: 2px 2px rgb(7, 64, 255);
 color:rgb(13, 208, 254);
-font-family: 'GalanoGrotesqueBlack';
+font-family: 'Nexa';
 text-transform: none;}
 
 #slogan{
@@ -802,7 +824,7 @@ padding-left:45%;
 
 #contactos{
   margin-left: -100px;
-  background-color:rgb(223, 241, 251) }
+  background-color:rgb(243, 250, 254) }
 
 
 /*GIF*/
@@ -816,14 +838,14 @@ margin-bottom: 0px;}
 /*TIENES UN PROYECTO?*/
 #tienes{
   
-  font-size: 70px;
+  font-size: 5vw;
   margin-top: 0px;
   text-align: right;
   margin-right: 10px;
   margin-bottom: -20vw;
-  text-shadow: 3px 4px  rgb(7, 64, 255);
+  text-shadow: 2px 2px  rgb(7, 64, 255);
 color:rgb(13, 208, 254);
-font-family: 'GalanoGrotesqueBlack';
+font-family: 'Nexa';
 text-transform: none;}
 
 #items{padding-bottom: 0px;margin-bottom: 0px;}
@@ -832,7 +854,7 @@ text-transform: none;}
 #lets{text-align: right;
   margin-right: 10px; 
   margin-top: 70px;
-  font-family: 'GalanoGrotesqueAltBold';
+  font-family: 'Nexa Bold';
 font-size: 55px;
 color: rgb(7, 64, 255);
 }
@@ -879,8 +901,7 @@ color: rgb(7, 64, 255);
 
 
   #contactos{
-    margin-left:0px;
-    background-color:rgb(223, 241, 251) }
+    margin-left:0px; }
   
   #contact{
     padding-top: 30vw;
@@ -896,8 +917,7 @@ color: rgb(7, 64, 255);
   #tienes{
     text-align: center;
     text-shadow: 2px 2px  rgb(7, 64, 255);
-
-    font-size: 50px;
+    font-size:50px;
     margin-top: 0px;
     margin-bottom: -50px;
 }
@@ -911,8 +931,8 @@ color: rgb(7, 64, 255);
 
   /*LA IMG, NO EL FONDO*/
 #contactBack{
-  width: 140%;
-  margin-left: -50px;
+  width: 105%;
+  margin-left: -5px;
 }
 
   .btnContact{
@@ -954,17 +974,16 @@ margin-top: -50px;
 }
 
 #footer h4 {
-  font-size: 20px;
-  letter-spacing: 4px;
-  font-weight: 700;
+  font-size: 25px;
   position: relative;
-  font-family: 'GalanoGrotesqueLight';
-  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Patinio';
   padding-top: 40px;
  
 }
 
 #footer .credits {
+  margin-top: -10px;
   font-family: 'GalanoGrotesqueLight';
   font-size:13px;
 }
@@ -972,20 +991,26 @@ margin-top: -50px;
 @media (max-width: 992px) {
   #footer {
     height:100px;
-    margin-top: 0vw;
+    margin-top: -40px;
     text-align: left;
     margin-bottom: 0px;
  
   }
 
   #footer h4 {
-    font-size: 15px;
-    letter-spacing: 3px;
-    padding-top:20px ;
+    margin-left: 20px;
+    font-size: 18px;
+        padding-top:20px ;
 
   }
 
+  #footer .credits {
+    margin-left: 20px;
+  }
+
   #logotr{
+    margin-right: 30px ;
+    float: left;
     width: 80px;
   }
 }
