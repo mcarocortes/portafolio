@@ -362,12 +362,6 @@ margin-bottom: 10px;}
   position: relative;
 }
 
-@media (min-width: 992px) {
-  #hero {
-    padding-left: 160px;
-  }
-}
-
 #hero:before {
   content: "";
   position: absolute;
@@ -379,9 +373,9 @@ margin-bottom: 10px;}
 
 #caro{
   margin-top: 20vw;
-  width: 45%;
+  width: 40%;
   margin-bottom: 0;
-  margin-left: 0;
+  margin-left: 60px;
 }
 
 #caro2{
@@ -389,9 +383,9 @@ margin-bottom: 10px;}
 }
 #hero p {
   color: black;
-  margin-top: -60px;
+  margin-top: -20px;
   margin-left:150px;
-  font-size: 30px;
+  font-size: 150%;
   font-family: 'GalanoGrotesqueAltBold';
   letter-spacing: 0;
 }
@@ -407,7 +401,9 @@ margin-bottom: 10px;}
 
 /****************  EDICION EN MEDIA ************/
 @media (max-width: 992px) {
+
   #hero {
+    padding-left: 160px;
     text-align: center;
   }
 
