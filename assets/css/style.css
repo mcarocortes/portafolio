@@ -42,26 +42,6 @@
   font-display: swap;
 }
 
-/*TITULOS*/
-
-@font-face {
-  font-family: 'Nexa';
-  src: url('../../fonts/NexaSlabDemo-Regular.woff2') format('woff2'),
-      url('../../fonts/NexaSlabDemo-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Nexa Bold';
-  src: url('../../fonts/NexaSlabDemo-Bold.woff2') format('woff2'),
-      url('../../fonts/NexaSlabDemo-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
 
 @font-face {
   font-family: 'Patinio';
@@ -411,15 +391,18 @@ margin-bottom: 10px;}
     display: none;
   }
 
+  #hero .container{ margin: -60px;  }
+
+
   #caro2{
-    border:2px solid #fff;
-  /*  -webkit-box-shadow: 5px 6px 5px rgb(174, 186, 197);*/
-    border-radius:190px;
-    display:block;
-    margin-top: 10vw;
+ /*   border:2px solid #fff;*/
+    -webkit-box-shadow: 2px 2px 2px rgb(174, 186, 197);
+   border-radius:200px;
+
+   display: block;
+    margin: 0 auto;
     width: 60%;
-    margin-bottom: 0;
-    margin-left:20vw;
+ 
   }
 /*
   #hero h1 {
@@ -509,7 +492,7 @@ section {
   margin-top: 4vw;
   text-shadow: 2px 2px rgb(7, 64, 255);
 color:rgb(13, 208, 254);
-font-family: 'Nexa';
+font-family: 'GalanoGrotesqueAltBold';
 text-transform: none;}
 
 
@@ -574,7 +557,6 @@ margin-left: -100px}
     line-height: 1.5;
     font-size: 17px;
     margin-top: 4vw;
-   font-family: 'GalanoGrotesqueLight';
    text-align:justify;
    width: 100%;
   }
@@ -597,7 +579,7 @@ margin-left: -100px}
   margin-top: 1vw;
   text-shadow: 2px 2px rgb(7, 64, 255);
 color:rgb(13, 208, 254);
-font-family: 'Nexa';
+font-family: 'GalanoGrotesqueAltBold';
 text-transform: none;}
 
 #slogan{
@@ -841,7 +823,7 @@ margin-bottom: 0px;}
   margin-bottom: -20vw;
   text-shadow: 2px 2px  rgb(7, 64, 255);
 color:rgb(13, 208, 254);
-font-family: 'Nexa';
+font-family: 'GalanoGrotesqueAltBold';
 text-transform: none;}
 
 #items{padding-bottom: 0px;margin-bottom: 0px;}
@@ -850,7 +832,7 @@ text-transform: none;}
 #lets{text-align: right;
   margin-right: 10px; 
   margin-top: 70px;
-  font-family: 'Nexa Bold';
+  font-family: 'GalanoGrotesqueAltBold Bold';
 font-size: 55px;
 color: rgb(7, 64, 255);
 }
